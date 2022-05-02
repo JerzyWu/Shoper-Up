@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px rgb(165, 165, 165) solid;
+}
+ 
+.left {
+    float: left;
+}
+.logo {
+    width: 60px;
+    margin: 2px 90px 2px 10px;
+}
+.nav_button {
+    border: 1px black solid;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.main_text {
+    margin-top: 15px;
+    background-image: url("../images/why.jpeg");
+    width: 1200px;
+    height: 442px;
+    display: flex;
+    justify-content:center;
+}
+
+.main_text span {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.articles_list {
+    justify-content: center;
+    border-bottom: 1px rgb(165, 165, 165) solid;
+}
+.container {
+    border: 1px solid transparent;
+}
+.article {
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 10px;
+    border: 1px rgb(165, 165, 165) solid;
+    border-radius: 4px;
+}
+.article h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.article p {
+    font-size: 15px;
+    padding-top: 10px;
+}
+footer p {
+    padding: 10px 20px;
+}
